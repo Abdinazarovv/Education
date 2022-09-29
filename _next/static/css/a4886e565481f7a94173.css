@@ -1505,6 +1505,10 @@ textarea.form-control {
 .main-banner-courses-list .single-courses-box .courses-content {
   padding: 20px;
 }
+.white {
+  filter: brightness(0) invert(1);
+  }
+
 .banner-shape1 {
   position: absolute;
   left: 0;
