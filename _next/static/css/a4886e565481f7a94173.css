@@ -1509,6 +1509,14 @@ textarea.form-control {
   filter: brightness(0) invert(1);
   }
 
+.mar {
+  margin-right: 5px;
+}
+
+.fa-user {
+  margin-top: 5px;
+}
+
 .banner-shape1 {
   position: absolute;
   left: 0;
