@@ -3220,6 +3220,11 @@ textarea.form-control {
   bottom: 3%;
   right: 25%;
 }
+
+.gold {
+  color: gold;
+}
+
 .kindergarten-main-banner {
   background-color: #f8e8e9;
   position: relative;
