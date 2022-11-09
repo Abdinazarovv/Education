@@ -12,7 +12,7 @@
     <link rel="manifest" href="/manifest.json" />
     <link rel="shortcut icon" href="/images/favicon.png" />
     <meta charSet="utf-8" />
-    <title>eDemy - React Next.js Education LMS Template</title>
+    <title>Online Kurslar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="eDemy - React Next.js Education LMS Template" />
     <meta name="og:title" property="og:title" content="eDemy - React Next.js Education LMS Template" />
@@ -24,17 +24,22 @@
     <link rel="preload" href="/_next/static/css/a4886e565481f7a94173.css" as="style" />
     <link rel="stylesheet" href="/_next/static/css/a4886e565481f7a94173.css" data-n-g="" />
     <link rel="preload" href="/_next/static/css/9562c4bccc34cfcbe95d.css" as="style" />
-    <link rel="stylesheet" href="/_next/static/css/9562c4bccc34cfcbe95d.css" data-n-g="" /><noscript data-n-css=""></noscript>
+    <link rel="stylesheet" href="/_next/static/css/9562c4bccc34cfcbe95d.css" data-n-g="" /><noscript
+        data-n-css=""></noscript>
     <link rel="preload" href="/_next/static/chunks/main-bbb3317fdfec957c3f1a.js" as="script" />
     <link rel="preload" href="/_next/static/chunks/webpack-723053e1695b03172fe2.js" as="script" />
     <link rel="preload" href="/_next/static/chunks/framework.ce4a96022bc463719e4f.js" as="script" />
     <link rel="preload" href="/_next/static/chunks/1fecb80c.0da962408965947cb7ef.js" as="script" />
     <link rel="preload" href="/_next/static/chunks/2240fe8a.ac762d20501fdbb5a318.js" as="script" />
     <link rel="preload" href="/_next/static/chunks/commons.e6dad5ffe6d4e217862e.js" as="script" />
-    <link rel="preload" href="/_next/static/chunks/b5fc9ed5caee09d09d686488fb24c272fdd9c981.83803746f9f351ae3b63.js" as="script" />
-    <link rel="preload" href="/_next/static/chunks/7210ba73c039bce3e1f8237eb6acbdc2995269b2.27217100cd621c802437.js" as="script" />
-    <link rel="preload" href="/_next/static/chunks/c6464ce45454a8a567d341c8d3b5fce3b9953bc5.caecf04d167c8a4335c4.js" as="script" />
-    <link rel="preload" href="/_next/static/chunks/ca92af84a5277c2d4f7907f2d3fdddd999dec0ab.2221faeb4e970362d007.js" as="script" />
+    <link rel="preload" href="/_next/static/chunks/b5fc9ed5caee09d09d686488fb24c272fdd9c981.83803746f9f351ae3b63.js"
+        as="script" />
+    <link rel="preload" href="/_next/static/chunks/7210ba73c039bce3e1f8237eb6acbdc2995269b2.27217100cd621c802437.js"
+        as="script" />
+    <link rel="preload" href="/_next/static/chunks/c6464ce45454a8a567d341c8d3b5fce3b9953bc5.caecf04d167c8a4335c4.js"
+        as="script" />
+    <link rel="preload" href="/_next/static/chunks/ca92af84a5277c2d4f7907f2d3fdddd999dec0ab.2221faeb4e970362d007.js"
+        as="script" />
     <link rel="preload" href="/_next/static/chunks/pages/_app-1033cc6a73ec78a33613.js" as="script" />
     <link rel="preload" href="/_next/static/chunks/pages/courses-4-1eaf8084926e5849ad8a.js" as="script" />
 </head>
@@ -58,449 +63,503 @@
         <div id="navbar" class="navbar-area">
             <div class="edemy-nav">
                 <div class="container-fluid">
-                    <div class="navbar navbar-expand-lg navbar-light"><a class="navbar-brand" href="/"><img src="/images/logo.png" alt="logo"/></a><button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation"><span class="icon-bar top-bar"></span><span class="icon-bar middle-bar"></span><span class="icon-bar bottom-bar"></span></button>
-                        <div
-                            class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <form class="search-box"><input type="text" class="input-search" placeholder="Search for anything" name="search" value="" /><button type="submit"><i class="flaticon-search"></i></button></form>
+                    <div class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="/"><img src="#" alt="site-logo" /></a><button
+                            class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="icon-bar top-bar"></span><span class="icon-bar middle-bar"></span><span
+                                class="icon-bar bottom-bar"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <form class="search-box">
+                                <input type="text" class="input-search" placeholder="Kurslarni qidiring!" name="search"
+                                    value="" /><button type="submit">
+                                    <img src="./images/magnifying-glass-solid.svg" alt="" width="20" height="20">
+                                </button>
+                            </form>
                             <ul class="navbar-nav">
-                                <li class="nav-item"><a class="nav-link" href="/">Home<!-- --> <i class="bx bx-chevron-down"></i></a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item"><a class="nav-link" href="/">Learning Provider</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/elearning">eLearning School</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/vendor-certification">Vendor Certification Training</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/online-training">Online Training School</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/distance-learning">Distance Learning</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/language-school">Language School</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/modern-schooling">Modern Schooling</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/yoga-training">Yoga Training</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/health-coaching">Health Coaching</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/kindergaten">Kindergaten</a></li>
-                                    </ul>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="/">Asosiy
+                                    </a>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="/">Pages<!-- --> <i class="bx bx-chevron-down"></i></a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item"><a class="nav-link" href="/">About Us<!-- --> <i class="bx bx-chevron-down"></i></a>
-                                            <ul class="dropdown-menu">
-                                                <li class="nav-item"><a class="nav-link" href="/about-1">About Us 01</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="/about-2">About Us 02</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="/about-3">About Us 03</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item"><a class="nav-link" href="/">Events<!-- --> <i class="bx bx-chevron-down"></i></a>
-                                            <ul class="dropdown-menu">
-                                                <li class="nav-item"><a class="nav-link" href="/events">Events</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="/single-events">Events Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item"><a class="nav-link" href="/success-story">Success Story</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/advisor">Teacher</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/gallery">Gallery</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/faq">FAQs</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/authentication">Login/Register</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/404">404 Error Page</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/coming-soon">Coming Soon</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/purchase-guide">Purchase Guide</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/privacy-policy">Privacy Policy</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/terms-of-service">Terms of Service</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item megamenu"><a class="nav-link" href="/">Courses<!-- --> <i class="bx bx-chevron-down"></i></a>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/">Sahifalar
+                                        <!-- -->
+                                        <img src="./images/chevron-down-solid.svg" alt="" width="15" height="15">
+                                    </a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <div class="container">
-                                                <div class="row">
-                                                    <div class="col">
-                                                        <ul class="megamenu-submenu">
-                                                            <li class="nav-item"><a class="nav-link" href="/courses-1">Courses Grid 01</a></li>
-                                                            <li class="nav-item"><a class="nav-link" href="/courses-2">Courses Grid 02</a></li>
-                                                            <li class="nav-item"><a class="nav-link" href="/courses-3">Courses Grid 03</a></li>
-                                                            <li class="nav-item"><a class="nav-link active" href="/courses-4">Courses Grid 04</a></li>
-                                                            <li class="nav-item"><a class="nav-link" href="/courses-5">Courses List 01</a></li>
-                                                            <li class="nav-item"><a class="nav-link" href="/courses-6">Courses Right Sidebar</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col">
-                                                        <ul class="megamenu-submenu">
-                                                            <li class="nav-item"><a class="nav-link" href="/single-courses-1">Single Layout 01</a></li>
-                                                            <li class="nav-item"><a class="nav-link" href="/single-courses-2">Single Layout 02</a></li>
-                                                            <li class="nav-item"><a class="nav-link" href="/categories">Courses Categories</a></li>
-                                                            <li class="nav-item"><a class="nav-link" href="/membership-levels">Membership Levels</a></li>
-                                                            <li class="nav-item"><a class="nav-link" href="/become-a-teacher">Become a Teacher</a></li>
-                                                            <li class="nav-item"><a class="nav-link" href="/profile">Profile</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col">
-                                                        <ul class="megamenu-submenu">
-                                                            <li class="nav-item"><a class="nav-link" href="/courses-1">Courses Grid 01</a></li>
-                                                            <li class="nav-item"><a class="nav-link" href="/courses-2">Courses Grid 02</a></li>
-                                                            <li class="nav-item"><a class="nav-link" href="/courses-3">Courses Grid 03</a></li>
-                                                            <li class="nav-item"><a class="nav-link active" href="/courses-4">Courses Grid 04</a></li>
-                                                            <li class="nav-item"><a class="nav-link" href="/courses-5">Courses List 01</a></li>
-                                                            <li class="nav-item"><a class="nav-link" href="/courses-6">Courses Right Sidebar</a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col">
-                                                        <ul class="megamenu-submenu">
-                                                            <li class="nav-item"><a class="nav-link" href="/single-courses-1">Single Layout 01</a></li>
-                                                            <li class="nav-item"><a class="nav-link" href="/single-courses-2">Single Layout 02</a></li>
-                                                            <li class="nav-item"><a class="nav-link" href="/categories">Courses Categories</a></li>
-                                                            <li class="nav-item"><a class="nav-link" href="/membership-levels">Membership Levels</a></li>
-                                                            <li class="nav-item"><a class="nav-link" href="/become-a-teacher">Become a Teacher</a></li>
-                                                            <li class="nav-item"><a class="nav-link" href="/profile">Profile</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="row m-0 mobile-none">
-                                                    <div class="col-lg-2 col-sm-4 col-md-4 col-6 p-0">
-                                                        <div class="single-category-widget">
-                                                            <div class="icon"><i class="bx bx-code-alt"></i></div>
-                                                            <h3>Development</h3><span class="sub-title">60 Courses</span><a class="link-btn" href="/courses-1"></a></div>
-                                                    </div>
-                                                    <div class="col-lg-2 col-sm-4 col-md-4 col-6 p-0">
-                                                        <div class="single-category-widget">
-                                                            <div class="icon"><i class="bx bx-camera"></i></div>
-                                                            <h3>Photography</h3><span class="sub-title">21 Courses</span><a class="link-btn" href="/courses-2"></a></div>
-                                                    </div>
-                                                    <div class="col-lg-2 col-sm-4 col-md-4 col-6 p-0">
-                                                        <div class="single-category-widget">
-                                                            <div class="icon"><i class="bx bx-layer"></i></div>
-                                                            <h3>Design</h3><span class="sub-title">58 Courses</span><a class="link-btn" href="/courses-3"></a></div>
-                                                    </div>
-                                                    <div class="col-lg-2 col-sm-4 col-md-4 col-6 p-0">
-                                                        <div class="single-category-widget">
-                                                            <div class="icon"><i class="bx bxs-flag-checkered"></i></div>
-                                                            <h3>Language</h3><span class="sub-title">99 Courses</span><a class="link-btn" href="/courses-4"></a></div>
-                                                    </div>
-                                                    <div class="col-lg-2 col-sm-4 col-md-4 col-6 p-0">
-                                                        <div class="single-category-widget">
-                                                            <div class="icon"><i class="bx bx-health"></i></div>
-                                                            <h3>Fitness</h3><span class="sub-title">21 Courses</span><a class="link-btn" href="/courses-5"></a></div>
-                                                    </div>
-                                                    <div class="col-lg-2 col-sm-4 col-md-4 col-6 p-0">
-                                                        <div class="single-category-widget">
-                                                            <div class="icon"><i class="bx bx-line-chart"></i></div>
-                                                            <h3>Business</h3><span class="sub-title">49 Courses</span><a class="link-btn" href="/courses-6"></a></div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            <a class="nav-link" href="./about-1.html">Biz Haqimizda
+                                                <!-- -->
+                                            </a>
+                                        </li>
+                                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="/">Events
+                              
+                              <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li class="nav-item">
+                                <a class="nav-link" href="/events">Events</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="/single-events">Events Details</a>
+                              </li>
+                            </ul>
+                          </li> -->
+                                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="/success-story">Success Story</a>
+                          </li> -->
+                                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="/advisor">Teacher</a>
+                          </li> -->
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./gallery.html">Gallareyamiz</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./faq.html">Savollar</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./contact.html">Bog'lanish</a>
+                                        </li>
+                                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="/authentication">Login/Register</a>
+                          </li> -->
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./404.html">404 Sahifa</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./coming-soon.html">Tez orada</a>
+                                        </li>
+                                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="/purchase-guide">Purchase Guide</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/privacy-policy">Privacy Policy</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/terms-of-service">Terms of Service</a>
+                          </li> -->
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./courses-3.html">Kurslar
+                                    </a>
+                                    <!-- <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a class="nav-link" href="./courses-3.html">Kurslar</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/products-list-2">Product List 02</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/cart">Cart</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/checkout">Checkout</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/single-products">Product Details</a>
+                          </li>
+                        </ul> -->
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./products-list-1.html">Kitoblar
+                                    </a>
+                                    <!-- <ul class="dropdown-menu">
+                          <li class="nav-item">
+                            <a class="nav-link" href="/products-list-1">Product List 01</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/products-list-2">Product List 02</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/cart">Cart</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/checkout">Checkout</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="/single-products">Product Details</a>
+                          </li>
+                        </ul> -->
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/">Qo'llanmalar
+                                        <!-- -->
+                                        <img src="./images/chevron-down-solid.svg" alt="" width="15" height="15">
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./courses-4.html">Online Kurslar</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="./courses-5.html">Prezintatsiyalar</a>
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="/">Shop<!-- --> <i class="bx bx-chevron-down"></i></a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item"><a class="nav-link" href="/products-list-1">Product List 01</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/products-list-2">Product List 02</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/cart">Cart</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/checkout">Checkout</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/single-products">Product Details</a></li>
-                                    </ul>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./contact.html">Bog'lanish</a>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="/">Blog<!-- --> <i class="bx bx-chevron-down"></i></a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item"><a class="nav-link" href="/blog-1">Grid (2 in Row)</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/blog-2">Grid (3 in Row)</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/blog-3">Grid (Full Width)</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/blog-4">Right Sidebar</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/">Single Post<!-- --> <i class="bx bx-chevron-down"></i></a>
-                                            <ul class="dropdown-menu">
-                                                <li class="nav-item"><a class="nav-link" href="/single-blog-1">Default</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="/single-blog-2">With Video</a></li>
-                                                <li class="nav-item"><a class="nav-link" href="/single-blog-3">With Image Slider</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="/become-a-teacher">Become A Teacher</a></li>
                             </ul>
                             <div class="others-option d-flex align-items-center">
                                 <div class="option-item">
-                                    <div class="cart-btn"><a class="" href="/cart"><i class="flaticon-shopping-cart"></i> <span>3</span></a></div>
+                                    <div class="cart-btn">
+                                        <a class="" href="./cart.html"><img src="./images/cart-shopping-solid.svg"
+                                                alt="" width="20" height="20">
+                                            <span>3</span></a>
+                                    </div>
                                 </div>
-                                <div class="option-item"><a class="default-btn" href="/authentication"><i class="flaticon-user"></i> <!-- -->Login/Register <span></span></a></div>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="page-title-area">
-        <div class="container">
-            <div class="page-title-content">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li class="active">Courses Grid 04</li>
-                </ul>
-                <h2>Courses Grid 04</h2>
-            </div>
-        </div>
-        <div class="shape9"><img src="/images/shape8.svg" alt="image" /></div>
-    </div>
-    <div class="courses-area courses-section pt-100 pb-70">
-        <div class="container">
-            <div class="edemy-grid-sorting row align-items-center">
-                <div class="col-lg-8 col-md-6 result-count">
-                    <p>We found <span class="count">12</span> courses available for you</p>
-                </div>
-                <div class="col-lg-4 col-md-6 ordering">
-                    <div class="select-box"><select class="form-control"><option>Sort By</option><option>Popularity</option><option>Latest</option><option>Price: low to high</option><option>Price: high to low</option></select></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-courses-item-box">
-                        <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img src="/images/courses/courses12.jpg" alt="image"/></a><a href="#" class="fav"><i class="flaticon-heart"></i></a>
-                            <div class="price shadow">$39</div>
-                        </div>
-                        <div class="courses-content">
-                            <h3><a href="/single-courses-1">Agile Crash Course: Agile Project Management</a></h3>
-                            <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
-                                <div class="rating-total">5.0 (1 rating)</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-courses-item-box">
-                        <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img src="/images/courses/courses13.jpg" alt="image"/></a><a href="#" class="fav"><i class="flaticon-heart"></i></a>
-                            <div class="price shadow">$59</div>
-                        </div>
-                        <div class="courses-content">
-                            <h3><a href="/single-courses-1">Vue JS 2 - The Complete Guide (incl. Vue Router &amp; Vuex)</a></h3>
-                            <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
-                                <div class="rating-total">5.0 (2 rating)</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-courses-item-box">
-                        <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img src="/images/courses/courses14.jpg" alt="image"/></a><a href="#" class="fav"><i class="flaticon-heart"></i></a>
-                            <div class="price shadow">$69</div>
-                        </div>
-                        <div class="courses-content">
-                            <h3><a href="/single-courses-1">The Python Bible™ | Everything You Need to Program in Python</a></h3>
-                            <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
-                                <div class="rating-total">5.0 (3 rating)</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-courses-item-box">
-                        <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img src="/images/courses/courses15.jpg" alt="image"/></a><a href="#" class="fav"><i class="flaticon-heart"></i></a>
-                            <div class="price shadow">$79</div>
-                        </div>
-                        <div class="courses-content">
-                            <h3><a href="/single-courses-1">Mathematical Foundation For Machine Learning and AI</a></h3>
-                            <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
-                                <div class="rating-total">5.0 (4 rating)</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-courses-item-box">
-                        <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img src="/images/courses/courses16.jpg" alt="image"/></a><a href="#" class="fav"><i class="flaticon-heart"></i></a>
-                            <div class="price shadow">$89</div>
-                        </div>
-                        <div class="courses-content">
-                            <h3><a href="/single-courses-1">The Ultimate Drawing Course - Beginner to Advanced</a></h3>
-                            <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
-                                <div class="rating-total">5.0 (5 rating)</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-courses-item-box">
-                        <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img src="/images/courses/courses17.jpg" alt="image"/></a><a href="#" class="fav"><i class="flaticon-heart"></i></a>
-                            <div class="price shadow">$99</div>
-                        </div>
-                        <div class="courses-content">
-                            <h3><a href="/single-courses-1">PyTorch: Deep Learning and Artificial Intelligence</a></h3>
-                            <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
-                                <div class="rating-total">5.0 (6 rating)</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-courses-item-box">
-                        <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img src="/images/courses/courses1.jpg" alt="image"/></a><a href="#" class="fav"><i class="flaticon-heart"></i></a>
-                            <div class="price shadow">$39</div>
-                        </div>
-                        <div class="courses-content">
-                            <h3><a href="/single-courses-1">Azure Machine Learning Certification- AZ AI100</a></h3>
-                            <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
-                                <div class="rating-total">5.0 (1 rating)</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-courses-item-box">
-                        <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img src="/images/courses/courses2.jpg" alt="image"/></a><a href="#" class="fav"><i class="flaticon-heart"></i></a>
-                            <div class="price shadow">$59</div>
-                        </div>
-                        <div class="courses-content">
-                            <h3><a href="/single-courses-1">Statistics for Data Science and Business Analysis</a></h3>
-                            <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
-                                <div class="rating-total">5.0 (2 rating)</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-courses-item-box">
-                        <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img src="/images/courses/courses3.jpg" alt="image"/></a><a href="#" class="fav"><i class="flaticon-heart"></i></a>
-                            <div class="price shadow">$69</div>
-                        </div>
-                        <div class="courses-content">
-                            <h3><a href="/single-courses-1">Data Science &amp; Deep Learning for Business™ 20 Case Studies</a></h3>
-                            <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
-                                <div class="rating-total">5.0 (3 rating)</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-courses-item-box">
-                        <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img src="/images/courses/courses4.jpg" alt="image"/></a><a href="#" class="fav"><i class="flaticon-heart"></i></a>
-                            <div class="price shadow">$79</div>
-                        </div>
-                        <div class="courses-content">
-                            <h3><a href="/single-courses-1">Introduction to Machine Learning for Data Science</a></h3>
-                            <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
-                                <div class="rating-total">5.0 (4 rating)</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-courses-item-box">
-                        <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img src="/images/courses/courses5.jpg" alt="image"/></a><a href="#" class="fav"><i class="flaticon-heart"></i></a>
-                            <div class="price shadow">$89</div>
-                        </div>
-                        <div class="courses-content">
-                            <h3><a href="/single-courses-1">Microsoft Excel - Excel from Beginner to Advanced</a></h3>
-                            <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
-                                <div class="rating-total">5.0 (5 rating)</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-courses-item-box">
-                        <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img src="/images/courses/courses6.jpg" alt="image"/></a><a href="#" class="fav"><i class="flaticon-heart"></i></a>
-                            <div class="price shadow">$99</div>
-                        </div>
-                        <div class="courses-content">
-                            <h3><a href="/single-courses-1">Python Django Web Development: To-Do App</a></h3>
-                            <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
-                                <div class="rating-total">5.0 (6 rating)</div>
+                                <div class="option-item">
+                                    <a class="default-btn" href="/authentication"><img src="./images/user-regular.svg"
+                                            alt="user" class="logo-img" width="20" height="20">
+                                        <!-- -->Bizga qo'shiling! <span></span></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="go-top "><i class="bx bx-chevron-up"></i></div>
-    <footer class="footer-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-footer-widget"><a class="logo" href="/"><img src="/images/logo2.png" alt="logo"/></a>
-                        <p>Working to bring significant changes in online-based learning by doing extensive research for course curriculum preparation, student engagements, and looking forward to the flexible education!</p>
-                        <ul class="social-link">
-                            <li><a href="#" class="d-block" target="_blank"><i class="bx bxl-facebook"></i></a></li>
-                            <li><a href="#" class="d-block" target="_blank"><i class="bx bxl-twitter"></i></a></li>
-                            <li><a href="#" class="d-block" target="_blank"><i class="bx bxl-instagram"></i></a></li>
-                            <li><a href="#" class="d-block" target="_blank"><i class="bx bxl-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-6 col-sm-6">
-                    <div class="single-footer-widget pl-5">
-                        <h3>Explore</h3>
-                        <ul class="footer-links-list">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/about-1">About</a></li>
-                            <li><a href="/courses-1">Courses</a></li>
-                            <li><a href="/events">Events</a></li>
-                            <li><a href="/contact">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-6 col-sm-6">
-                    <div class="single-footer-widget">
-                        <h3>Resources</h3>
-                        <ul class="footer-links-list">
-                            <li><a href="#">Student Success</a></li>
-                            <li><a href="#">Scholarships</a></li>
-                            <li><a href="#">For Business</a></li>
-                            <li><a href="#">Go Premium</a></li>
-                            <li><a href="#">Team Plans</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-footer-widget">
-                        <h3>Address</h3>
-                        <ul class="footer-contact-info">
-                            <li><i class="bx bx-map"></i>2750 Quadra Street Golden Victoria Road, New York, USA</li>
-                            <li><i class="bx bx-phone-call"></i><a href="tel:+44587154756">+1 (123) 456 7890</a></li>
-                            <li><i class="bx bx-envelope"></i><a href="/cdn-cgi/l/email-protection#aac2cfc6c6c5eacfcecfc7d384c9c5c7"><span class="__cf_email__" data-cfemail="1f777a7373705f7a7b7a7266317c7072">[email&#160;protected]</span></a></li>
-                            <li><i class="bx bxs-inbox"></i><a href="tel:+557854578964">+55 785 4578964</a></li>
-                        </ul>
-                    </div>
+        <div class="page-title-area">
+            <div class="container">
+                <div class="page-title-content">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li class="active">Courses Grid 04</li>
+                    </ul>
+                    <h2>Courses Grid 04</h2>
                 </div>
             </div>
-            <div class="footer-bottom-area">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-md-6">
-                        <p><i class="bx bx-copyright"></i>2022
-                            <!-- -->eDemy is Proudly Powered by <a target="_blank" href="https://envytheme.com/">EnvyTheme</a></p>
+            <div class="shape9"><img src="/images/shape8.svg" alt="image" /></div>
+        </div>
+        <div class="courses-area courses-section pt-100 pb-70">
+            <div class="container">
+                <div class="edemy-grid-sorting row align-items-center">
+                    <div class="col-lg-8 col-md-6 result-count">
+                        <p>We found <span class="count">12</span> courses available for you</p>
                     </div>
-                    <div class="col-lg-6 col-md-6">
-                        <ul>
-                            <li><a href="/privacy-policy">Privacy Policy</a></li>
-                            <li><a href="/terms-of-service">Terms &amp; Conditions</a></li>
-                        </ul>
+                    <div class="col-lg-4 col-md-6 ordering">
+                        <div class="select-box"><select class="form-control">
+                                <option>Sort By</option>
+                                <option>Popularity</option>
+                                <option>Latest</option>
+                                <option>Price: low to high</option>
+                                <option>Price: high to low</option>
+                            </select></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-courses-item-box">
+                            <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img
+                                        src="/images/courses/courses12.jpg" alt="image" /></a><a href="#" class="fav"><i
+                                        class="flaticon-heart"></i></a>
+                                <div class="price shadow">$39</div>
+                            </div>
+                            <div class="courses-content">
+                                <h3><a href="/single-courses-1">Agile Crash Course: Agile Project Management</a></h3>
+                                <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i
+                                        class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                                    <div class="rating-total">5.0 (1 rating)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-courses-item-box">
+                            <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img
+                                        src="/images/courses/courses13.jpg" alt="image" /></a><a href="#" class="fav"><i
+                                        class="flaticon-heart"></i></a>
+                                <div class="price shadow">$59</div>
+                            </div>
+                            <div class="courses-content">
+                                <h3><a href="/single-courses-1">Vue JS 2 - The Complete Guide (incl. Vue Router &amp;
+                                        Vuex)</a></h3>
+                                <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i
+                                        class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                                    <div class="rating-total">5.0 (2 rating)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-courses-item-box">
+                            <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img
+                                        src="/images/courses/courses14.jpg" alt="image" /></a><a href="#" class="fav"><i
+                                        class="flaticon-heart"></i></a>
+                                <div class="price shadow">$69</div>
+                            </div>
+                            <div class="courses-content">
+                                <h3><a href="/single-courses-1">The Python Bible™ | Everything You Need to Program in
+                                        Python</a></h3>
+                                <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i
+                                        class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                                    <div class="rating-total">5.0 (3 rating)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-courses-item-box">
+                            <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img
+                                        src="/images/courses/courses15.jpg" alt="image" /></a><a href="#" class="fav"><i
+                                        class="flaticon-heart"></i></a>
+                                <div class="price shadow">$79</div>
+                            </div>
+                            <div class="courses-content">
+                                <h3><a href="/single-courses-1">Mathematical Foundation For Machine Learning and AI</a>
+                                </h3>
+                                <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i
+                                        class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                                    <div class="rating-total">5.0 (4 rating)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-courses-item-box">
+                            <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img
+                                        src="/images/courses/courses16.jpg" alt="image" /></a><a href="#" class="fav"><i
+                                        class="flaticon-heart"></i></a>
+                                <div class="price shadow">$89</div>
+                            </div>
+                            <div class="courses-content">
+                                <h3><a href="/single-courses-1">The Ultimate Drawing Course - Beginner to Advanced</a>
+                                </h3>
+                                <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i
+                                        class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                                    <div class="rating-total">5.0 (5 rating)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-courses-item-box">
+                            <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img
+                                        src="/images/courses/courses17.jpg" alt="image" /></a><a href="#" class="fav"><i
+                                        class="flaticon-heart"></i></a>
+                                <div class="price shadow">$99</div>
+                            </div>
+                            <div class="courses-content">
+                                <h3><a href="/single-courses-1">PyTorch: Deep Learning and Artificial Intelligence</a>
+                                </h3>
+                                <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i
+                                        class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                                    <div class="rating-total">5.0 (6 rating)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-courses-item-box">
+                            <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img
+                                        src="/images/courses/courses1.jpg" alt="image" /></a><a href="#" class="fav"><i
+                                        class="flaticon-heart"></i></a>
+                                <div class="price shadow">$39</div>
+                            </div>
+                            <div class="courses-content">
+                                <h3><a href="/single-courses-1">Azure Machine Learning Certification- AZ AI100</a></h3>
+                                <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i
+                                        class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                                    <div class="rating-total">5.0 (1 rating)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-courses-item-box">
+                            <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img
+                                        src="/images/courses/courses2.jpg" alt="image" /></a><a href="#" class="fav"><i
+                                        class="flaticon-heart"></i></a>
+                                <div class="price shadow">$59</div>
+                            </div>
+                            <div class="courses-content">
+                                <h3><a href="/single-courses-1">Statistics for Data Science and Business Analysis</a>
+                                </h3>
+                                <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i
+                                        class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                                    <div class="rating-total">5.0 (2 rating)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-courses-item-box">
+                            <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img
+                                        src="/images/courses/courses3.jpg" alt="image" /></a><a href="#" class="fav"><i
+                                        class="flaticon-heart"></i></a>
+                                <div class="price shadow">$69</div>
+                            </div>
+                            <div class="courses-content">
+                                <h3><a href="/single-courses-1">Data Science &amp; Deep Learning for Business™ 20 Case
+                                        Studies</a></h3>
+                                <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i
+                                        class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                                    <div class="rating-total">5.0 (3 rating)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-courses-item-box">
+                            <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img
+                                        src="/images/courses/courses4.jpg" alt="image" /></a><a href="#" class="fav"><i
+                                        class="flaticon-heart"></i></a>
+                                <div class="price shadow">$79</div>
+                            </div>
+                            <div class="courses-content">
+                                <h3><a href="/single-courses-1">Introduction to Machine Learning for Data Science</a>
+                                </h3>
+                                <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i
+                                        class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                                    <div class="rating-total">5.0 (4 rating)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-courses-item-box">
+                            <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img
+                                        src="/images/courses/courses5.jpg" alt="image" /></a><a href="#" class="fav"><i
+                                        class="flaticon-heart"></i></a>
+                                <div class="price shadow">$89</div>
+                            </div>
+                            <div class="courses-content">
+                                <h3><a href="/single-courses-1">Microsoft Excel - Excel from Beginner to Advanced</a>
+                                </h3>
+                                <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i
+                                        class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                                    <div class="rating-total">5.0 (5 rating)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-courses-item-box">
+                            <div class="courses-image"><a href="/single-courses-1" class="d-block image"><img
+                                        src="/images/courses/courses6.jpg" alt="image" /></a><a href="#" class="fav"><i
+                                        class="flaticon-heart"></i></a>
+                                <div class="price shadow">$99</div>
+                            </div>
+                            <div class="courses-content">
+                                <h3><a href="/single-courses-1">Python Django Web Development: To-Do App</a></h3>
+                                <div class="rating"><i class="bx bxs-star"></i><i class="bx bxs-star"></i><i
+                                        class="bx bxs-star"></i><i class="bx bxs-star"></i><i class="bx bxs-star"></i>
+                                    <div class="rating-total">5.0 (6 rating)</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="lines">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+        <div class="go-top "><i class="bx bx-chevron-up"></i></div>
+        <footer class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-footer-widget"><a class="logo" href="/"><img src="/images/logo2.png"
+                                    alt="logo" /></a>
+                            <p>Working to bring significant changes in online-based learning by doing extensive research
+                                for course curriculum preparation, student engagements, and looking forward to the
+                                flexible education!</p>
+                            <ul class="social-link">
+                                <li><a href="#" class="d-block" target="_blank"><i class="bx bxl-facebook"></i></a></li>
+                                <li><a href="#" class="d-block" target="_blank"><i class="bx bxl-twitter"></i></a></li>
+                                <li><a href="#" class="d-block" target="_blank"><i class="bx bxl-instagram"></i></a>
+                                </li>
+                                <li><a href="#" class="d-block" target="_blank"><i class="bx bxl-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget pl-5">
+                            <h3>Explore</h3>
+                            <ul class="footer-links-list">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/about-1">About</a></li>
+                                <li><a href="/courses-1">Courses</a></li>
+                                <li><a href="/events">Events</a></li>
+                                <li><a href="/contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h3>Resources</h3>
+                            <ul class="footer-links-list">
+                                <li><a href="#">Student Success</a></li>
+                                <li><a href="#">Scholarships</a></li>
+                                <li><a href="#">For Business</a></li>
+                                <li><a href="#">Go Premium</a></li>
+                                <li><a href="#">Team Plans</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h3>Address</h3>
+                            <ul class="footer-contact-info">
+                                <li><i class="bx bx-map"></i>2750 Quadra Street Golden Victoria Road, New York, USA</li>
+                                <li><i class="bx bx-phone-call"></i><a href="tel:+44587154756">+1 (123) 456 7890</a>
+                                </li>
+                                <li><i class="bx bx-envelope"></i><a
+                                        href="/cdn-cgi/l/email-protection#aac2cfc6c6c5eacfcecfc7d384c9c5c7"><span
+                                            class="__cf_email__"
+                                            data-cfemail="1f777a7373705f7a7b7a7266317c7072">[email&#160;protected]</span></a>
+                                </li>
+                                <li><i class="bx bxs-inbox"></i><a href="tel:+557854578964">+55 785 4578964</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom-area">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6">
+                            <p><i class="bx bx-copyright"></i>2022
+                                <!-- -->eDemy is Proudly Powered by <a target="_blank"
+                                    href="https://envytheme.com/">EnvyTheme</a>
+                            </p>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <ul>
+                                <li><a href="/privacy-policy">Privacy Policy</a></li>
+                                <li><a href="/terms-of-service">Terms &amp; Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lines">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </footer>
+        <div class="rtl-sidebar">
+            <ul>
+                <li><a href="/" title="English">EN</a></li>
+                <li><a href="/ar" title="Arabic">AR</a></li>
+                <li><a href="/fr" title="French">FR</a></li>
+                <li><a href="/nl" title="Netherlands">NL</a></li>
+            </ul>
         </div>
-    </footer>
-    <div class="rtl-sidebar">
-        <ul>
-            <li><a href="/" title="English">EN</a></li>
-            <li><a href="/ar" title="Arabic">AR</a></li>
-            <li><a href="/fr" title="French">FR</a></li>
-            <li><a href="/nl" title="Netherlands">NL</a></li>
-        </ul>
-    </div>
-    <style data-emotion-css="lim4fg">
-        .css-lim4fg {
-            box-sizing: border-box;
-            max-height: 100%;
-            overflow-x: hidden;
-            overflow-y: auto;
-            padding: 8px;
-            pointer-events: none;
-            position: fixed;
-            z-index: 1000;
-            bottom: 0;
-            left: 0;
-        }
-    </style>
-    <div class="react-toast-notifications__container css-lim4fg"></div>
+        <style data-emotion-css="lim4fg">
+            .css-lim4fg {
+                box-sizing: border-box;
+                max-height: 100%;
+                overflow-x: hidden;
+                overflow-y: auto;
+                padding: 8px;
+                pointer-events: none;
+                position: fixed;
+                z-index: 1000;
+                bottom: 0;
+                left: 0;
+            }
+        </style>
+        <div class="react-toast-notifications__container css-lim4fg"></div>
     </div>
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script id="__NEXT_DATA__" type="application/json">
@@ -527,10 +586,14 @@
     <script src="/_next/static/chunks/1fecb80c.0da962408965947cb7ef.js" async=""></script>
     <script src="/_next/static/chunks/2240fe8a.ac762d20501fdbb5a318.js" async=""></script>
     <script src="/_next/static/chunks/commons.e6dad5ffe6d4e217862e.js" async=""></script>
-    <script src="/_next/static/chunks/b5fc9ed5caee09d09d686488fb24c272fdd9c981.83803746f9f351ae3b63.js" async=""></script>
-    <script src="/_next/static/chunks/7210ba73c039bce3e1f8237eb6acbdc2995269b2.27217100cd621c802437.js" async=""></script>
-    <script src="/_next/static/chunks/c6464ce45454a8a567d341c8d3b5fce3b9953bc5.caecf04d167c8a4335c4.js" async=""></script>
-    <script src="/_next/static/chunks/ca92af84a5277c2d4f7907f2d3fdddd999dec0ab.2221faeb4e970362d007.js" async=""></script>
+    <script src="/_next/static/chunks/b5fc9ed5caee09d09d686488fb24c272fdd9c981.83803746f9f351ae3b63.js"
+        async=""></script>
+    <script src="/_next/static/chunks/7210ba73c039bce3e1f8237eb6acbdc2995269b2.27217100cd621c802437.js"
+        async=""></script>
+    <script src="/_next/static/chunks/c6464ce45454a8a567d341c8d3b5fce3b9953bc5.caecf04d167c8a4335c4.js"
+        async=""></script>
+    <script src="/_next/static/chunks/ca92af84a5277c2d4f7907f2d3fdddd999dec0ab.2221faeb4e970362d007.js"
+        async=""></script>
     <script src="/_next/static/chunks/pages/_app-1033cc6a73ec78a33613.js" async=""></script>
     <script src="/_next/static/chunks/pages/courses-4-1eaf8084926e5849ad8a.js" async=""></script>
     <script src="/_next/static/B0cfvxfX0ywiQm7FefhgR/_buildManifest.js" async=""></script>
